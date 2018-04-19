@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\agent\;CMake Files\driver\;CMake Files\driver\c++\;CMake Files\driver\sh\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/niuqiang/GetGit/QConf"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/niuqiang/GetGit/QConf"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/niuqiang/GetGit/QConf"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/niuqiang/GetGit/QConf"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/niuqiang/GetGit/QConf"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/niuqiang/GetGit/QConf"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/niuqiang/GetGit/QConf"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf_agent">
+				<Option output="/home/niuqiang/GetGit/QConf/agent/qconf_agent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/agent"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../base"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../base/qlibc"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../deps/curl/_install/include"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../deps/zookeeper/_install/include/zookeeper"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../deps/gdbm/_install/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/agent/Makefile&quot;  VERBOSE=1 qconf_agent"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/agent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/agent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/agent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf_agent/fast">
+				<Option output="/home/niuqiang/GetGit/QConf/agent/qconf_agent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/agent"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../base"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../base/qlibc"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../deps/curl/_install/include"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../deps/zookeeper/_install/include/zookeeper"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/agent/../deps/gdbm/_install/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/agent/Makefile&quot;  VERBOSE=1 qconf_agent/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/agent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/agent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/agent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/c++/libqconf.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/c++"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/include"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base/qlibc"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../deps/zookeeper/_install/include/zookeeper"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 qconf"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf/fast">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/c++/libqconf.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/c++"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/include"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base/qlibc"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../deps/zookeeper/_install/include/zookeeper"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 qconf/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf_static">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/c++/libqconf.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/c++"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/include"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base/qlibc"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../deps/zookeeper/_install/include/zookeeper"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 qconf_static"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf_static/fast">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/c++/libqconf.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/c++"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/include"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base/qlibc"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../deps/zookeeper/_install/include/zookeeper"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 qconf_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf_client">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/sh/qconf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/sh"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/sh/../c++/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 qconf_client"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf_client/fast">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/sh/qconf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/sh"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/sh/../c++/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 qconf_client/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_agent.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_cmd.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_cmd.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_config.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_config.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_daemon.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_daemon.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_dump.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_dump.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_feedback.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_feedback.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_gray.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_gray.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_lock.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_lock.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_script.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_script.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_watcher.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_watcher.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_zoo.cc">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/qconf_zoo.h">
+			<Option target="qconf_agent"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qconf_format.cc">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qconf_format.h">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qconf_log.cc">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qconf_log.h">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qconf_msg.cc">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qconf_msg.h">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qconf_shm.cc">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qconf_shm.h">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qlibc/md5.c">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qlibc/md5.h">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qlibc/qhash.c">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/base/qlibc/qhasharr.c">
+			<Option target="qconf_agent"/>
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/deps/zookeeper/_install/lib/hashtable.o">
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/deps/zookeeper/_install/lib/hashtable_itr.o">
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/deps/zookeeper/_install/lib/libzkmt_la-mt_adaptor.o">
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/deps/zookeeper/_install/lib/libzkmt_la-recordio.o">
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/deps/zookeeper/_install/lib/libzkmt_la-zk_hashtable.o">
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/deps/zookeeper/_install/lib/libzkmt_la-zk_log.o">
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/deps/zookeeper/_install/lib/libzkmt_la-zookeeper.jute.o">
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/deps/zookeeper/_install/lib/libzkmt_la-zookeeper.o">
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/src/driver_api.cc">
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/src/driver_api.h">
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/src/driver_common.cc">
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/src/qconf.cc">
+			<Option target="qconf"/>
+			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/sh/qconf.cc">
+			<Option target="qconf_client"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\agent\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\agent\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\driver\c++\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\driver\c++\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/sh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\driver\sh\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/sh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\driver\sh\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
