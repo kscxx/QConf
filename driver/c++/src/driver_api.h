@@ -22,7 +22,7 @@ extern "C" {
 
 /**
  * initialize current qconf environment before using qconf 
- *
+ * 初始化共享内存和消息队列
  * @return: if success, return QCONF_OK
  *          if failed, return QCONF_ERR_OTHER
  */

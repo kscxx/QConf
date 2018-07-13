@@ -14,7 +14,7 @@ using namespace std;
 
 int init_msg_queue(key_t key, int &msqid)
 {
-    msqid = msgget(key, PERMS);
+    msqid = msgget(key, PERMS);  // 该函数用来创建和访问一个消息队列
     if (-1 == msqid)
     {
         return QCONF_ERR_MSGGET;

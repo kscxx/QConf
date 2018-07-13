@@ -54,3 +54,7 @@ if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
     ${CMAKE_INSTALL_PREFIX}/lib/libqconf.a /usr/local/lib/libqconf.a)")
     install(DIRECTORY include/ DESTINATION /usr/local/include/qconf FILES_MATCHING PATTERN "*.h")
 endif(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+
+add_executable(demo example/demo.cc include/qconf.h)
+
+# QConf/driver即用户SDK，并不实际与ZK通信，而是通过进程间消息队列和共享内存与QConf/agent通信，获取配置或者要求更新配置

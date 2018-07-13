@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="qconf_sh"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\agent\;CMake Files\driver\;CMake Files\driver\c++\;CMake Files\driver\sh\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/sh"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf_client">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/sh/qconf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/sh"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/sh/../c++/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 qconf_client"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qconf_client/fast">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/sh/qconf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/sh"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/sh/../c++/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 qconf_client/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/sh/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/sh/qconf.cc">
+			<Option target="qconf_client"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\agent\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/agent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\agent\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\driver\c++\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\driver\c++\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/sh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\driver\sh\"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/sh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\driver\sh\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

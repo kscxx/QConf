@@ -77,7 +77,7 @@ int destroy_string_vector(string_vector_t *nodes);
  * @param buf: the buffer for keeping the value,
  * @param buf_len: the length of buf
  * @param idc: the place to get value;
- *             NULL is default value
+ *             NULL is default value, means get from local idcs
  *
  * @return QCONF_OK: if success
  *         QCONF_ERR_NOT_FOUND: if the key not exists

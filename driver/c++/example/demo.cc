@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <iostream>
-#include <qconf/qconf.h>
+#include "../include/qconf.h"
 
 using namespace std;
 

@@ -5,3 +5,13 @@
 manager/deps/*
 deps/*
 .vs
+CMakeFiles/
+driver/c++/CMakeFiles/
+agent/CMakeFiles/
+*.cmake
+.idea/
+*.o
+*.lo
+*.a
+*.so
+.deps/
