@@ -170,6 +170,19 @@ qconf_agent/fast:
 .PHONY : qconf_agent/fast
 
 #=============================================================================
+# Target rules for targets named demo
+
+# Build rule for target.
+demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo
+.PHONY : demo
+
+# fast build rule for target.
+demo/fast:
+	$(MAKE) -f driver/c++/CMakeFiles/demo.dir/build.make driver/c++/CMakeFiles/demo.dir/build
+.PHONY : demo/fast
+
+#=============================================================================
 # Target rules for targets named qconf
 
 # Build rule for target.
@@ -221,6 +234,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... qconf_agent"
+	@echo "... demo"
 	@echo "... qconf"
 	@echo "... qconf_static"
 	@echo "... qconf_client"

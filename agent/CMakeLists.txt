@@ -84,3 +84,5 @@ install(DIRECTORY DESTINATION doc)
 install(DIRECTORY DESTINATION logs)
 install(TARGETS qconf_agent DESTINATION bin)
 install(FILES version DESTINATION .)
+
+#QConf/agent接受来自用户SDK的消息，查询ZK并将配置信息更新到共享内存中

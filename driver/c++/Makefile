@@ -157,6 +157,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+driver/c++/CMakeFiles/demo.dir/rule:
+	cd /home/niuqiang/GetGit/QConf && $(MAKE) -f CMakeFiles/Makefile2 driver/c++/CMakeFiles/demo.dir/rule
+.PHONY : driver/c++/CMakeFiles/demo.dir/rule
+
+# Convenience name for target.
+demo: driver/c++/CMakeFiles/demo.dir/rule
+
+.PHONY : demo
+
+# fast build rule for target.
+demo/fast:
+	cd /home/niuqiang/GetGit/QConf && $(MAKE) -f driver/c++/CMakeFiles/demo.dir/build.make driver/c++/CMakeFiles/demo.dir/build
+.PHONY : demo/fast
+
+# Convenience name for target.
 driver/c++/CMakeFiles/qconf.dir/rule:
 	cd /home/niuqiang/GetGit/QConf && $(MAKE) -f CMakeFiles/Makefile2 driver/c++/CMakeFiles/qconf.dir/rule
 .PHONY : driver/c++/CMakeFiles/qconf.dir/rule
@@ -396,6 +411,33 @@ __/__/base/qlibc/qhasharr.c.s:
 	cd /home/niuqiang/GetGit/QConf && $(MAKE) -f driver/c++/CMakeFiles/qconf_static.dir/build.make driver/c++/CMakeFiles/qconf_static.dir/__/__/base/qlibc/qhasharr.c.s
 .PHONY : __/__/base/qlibc/qhasharr.c.s
 
+example/demo.o: example/demo.cc.o
+
+.PHONY : example/demo.o
+
+# target to build an object file
+example/demo.cc.o:
+	cd /home/niuqiang/GetGit/QConf && $(MAKE) -f driver/c++/CMakeFiles/demo.dir/build.make driver/c++/CMakeFiles/demo.dir/example/demo.cc.o
+.PHONY : example/demo.cc.o
+
+example/demo.i: example/demo.cc.i
+
+.PHONY : example/demo.i
+
+# target to preprocess a source file
+example/demo.cc.i:
+	cd /home/niuqiang/GetGit/QConf && $(MAKE) -f driver/c++/CMakeFiles/demo.dir/build.make driver/c++/CMakeFiles/demo.dir/example/demo.cc.i
+.PHONY : example/demo.cc.i
+
+example/demo.s: example/demo.cc.s
+
+.PHONY : example/demo.s
+
+# target to generate assembly for a file
+example/demo.cc.s:
+	cd /home/niuqiang/GetGit/QConf && $(MAKE) -f driver/c++/CMakeFiles/demo.dir/build.make driver/c++/CMakeFiles/demo.dir/example/demo.cc.s
+.PHONY : example/demo.cc.s
+
 src/driver_api.o: src/driver_api.cc.o
 
 .PHONY : src/driver_api.o
@@ -496,6 +538,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... demo"
 	@echo "... qconf"
 	@echo "... install/strip"
 	@echo "... install/local"
@@ -521,6 +564,9 @@ help:
 	@echo "... __/__/base/qlibc/qhasharr.o"
 	@echo "... __/__/base/qlibc/qhasharr.i"
 	@echo "... __/__/base/qlibc/qhasharr.s"
+	@echo "... example/demo.o"
+	@echo "... example/demo.i"
+	@echo "... example/demo.s"
 	@echo "... src/driver_api.o"
 	@echo "... src/driver_api.i"
 	@echo "... src/driver_api.s"

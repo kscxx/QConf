@@ -17,6 +17,56 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="demo">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/c++/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/c++"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/include"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base/qlibc"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../deps/zookeeper/_install/include/zookeeper"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="/home/niuqiang/GetGit/QConf/driver/c++/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/c++"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/include"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../base/qlibc"/>
+					<Add directory="/home/niuqiang/GetGit/QConf/driver/c++/../../deps/zookeeper/_install/include/zookeeper"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/niuqiang/GetGit/QConf/driver/c++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="qconf">
 				<Option output="/home/niuqiang/GetGit/QConf/driver/c++/libqconf.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/niuqiang/GetGit/QConf/driver/c++"/>
@@ -189,6 +239,9 @@
 		</Unit>
 		<Unit filename="/home/niuqiang/GetGit/QConf/deps/zookeeper/_install/lib/libzkmt_la-zookeeper.o">
 			<Option target="qconf_static"/>
+		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/example/demo.cc">
+			<Option target="demo"/>
 		</Unit>
 		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/src/driver_api.cc">
 			<Option target="qconf"/>

@@ -2,5 +2,10 @@
 *lockfile
 *.out
 **tags
-manager/deps/*
-deps/*
+CMakeFiles/
+driver/c++/CMakeFiles/
+agent/CMakeFiles/
+*.cmake
+.idea/
+*.o
+*.lo

@@ -15,6 +15,7 @@
 /home/niuqiang/GetGit/QConf/driver/c++/CMakeFiles/list_install_components.dir
 /home/niuqiang/GetGit/QConf/driver/c++/CMakeFiles/rebuild_cache.dir
 /home/niuqiang/GetGit/QConf/driver/c++/CMakeFiles/edit_cache.dir
+/home/niuqiang/GetGit/QConf/driver/c++/CMakeFiles/demo.dir
 /home/niuqiang/GetGit/QConf/driver/c++/CMakeFiles/qconf.dir
 /home/niuqiang/GetGit/QConf/driver/c++/CMakeFiles/install/strip.dir
 /home/niuqiang/GetGit/QConf/driver/c++/CMakeFiles/install/local.dir

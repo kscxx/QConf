@@ -48,8 +48,3 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   endif()
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  EXECUTE_PROCESS (COMMAND ln -sf
-    /usr/local/qconf/bin/qconf /usr/local/bin/qconf)
-endif()
-

@@ -303,12 +303,12 @@ AUTOHEADER = ${SHELL} "/home/niuqiang/GetGit/QConf/deps/curl/missing" --run auto
 AUTOMAKE = ${SHELL} "/home/niuqiang/GetGit/QConf/deps/curl/missing" --run automake-1.14
 AWK = gawk
 BLANK_AT_MAKETIME = 
-CC = /usr/bin/cc
+CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -O2 -Wno-system-headers
 CFLAG_CURL_SYMBOL_HIDING = 
-CONFIGURE_OPTIONS = " '--prefix=/home/niuqiang/GetGit/QConf/agent/../deps/curl/_install' '--disable-ldap' '--disable-ldaps' '--without-ssl' '--without-zlib' '--without-libidn' '--without-librtmp' 'CC=/usr/bin/cc'"
-CPP = /usr/bin/cc -E
+CONFIGURE_OPTIONS = " '--prefix=/home/niuqiang/GetGit/QConf/agent/../deps/curl/_install' '--disable-ldap' '--disable-ldaps' '--without-ssl' '--without-zlib' '--without-libidn' '--without-librtmp'"
+CPP = gcc -E
 CPPFLAGS = 
 CPPFLAG_CURL_STATICLIB = 
 CURLVERSION = 7.37.1
@@ -427,7 +427,7 @@ abs_srcdir = /home/niuqiang/GetGit/QConf/deps/curl
 abs_top_builddir = /home/niuqiang/GetGit/QConf/deps/curl
 abs_top_srcdir = /home/niuqiang/GetGit/QConf/deps/curl
 ac_ct_AR = 
-ac_ct_CC = /usr/bin/cc
+ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
 am__include = include
 am__leading_dot = .
