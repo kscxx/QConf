@@ -125,10 +125,11 @@ int init_hash_tbl(qhasharr_t *&tbl, key_t shmkey, mode_t mode, int flags)
 {
     int shmid = -1;
 
-    shmid = shmget(shmkey, 0, mode);
+    shmid = shmget(shmkey, 0, mode);  // 向系统申请共享内存，shmkey是key，mode是模式，返回值是key对应的句柄
     if (-1 == shmid) return QCONF_ERR_SHMGET;
 
-    tbl = (qhasharr_t*)shmat(shmid, NULL, flags);
+    tbl = (qhasharr_t*)shmat(shmid, NULL, flags);  // shmat = shared memory attach.  
+    // 第一次创建完共享内存时，它还不能被任何进程访问，shmat()函数的作用就是用来启动对该共享内存的访问，并把共享内存连接到当前进程的地址空间ss
     if ((void*)-1 == (void*)tbl)
     {
         tbl = NULL;

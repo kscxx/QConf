@@ -22,13 +22,13 @@
 using namespace std;
 
 static qhasharr_t *_qconf_hashtbl  = NULL;
-static key_t _qconf_hashtbl_key    = QCONF_DEFAULT_SHM_KEY;
+static key_t _qconf_hashtbl_key    = QCONF_DEFAULT_SHM_KEY;  // 为了增加程序的可移植性，才没有在程序中硬性声明为long型或是int型，而是用了一个key_t。和C中的size_t和time_t的原理一样，它只指名了这是一个整数类型，至于是哪种整数类型，应该由具体的实现来决定。
 
 static int _qconf_msqid            = QCONF_INVALID_SEM_ID;
 static key_t _qconf_msqid_key      = QCONF_DEFAULT_MSG_QUEUE_KEY;
 
-static int init_shm(); 
-static int init_msg();
+static int init_shm();  // shm = shared memory. 初始化共享内存，即_qconf_hashtbl
+static int init_msg();  // 初始化消息队列 
 static int send_msg_to_agent(int msqid, const string &idc, const string &path, char data_type);
 static int qconf_get_(const string &path, string &tblval, char dtype, const string &idc, int flags);
 

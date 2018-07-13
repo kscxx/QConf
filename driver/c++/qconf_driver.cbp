@@ -243,6 +243,9 @@
 		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/example/demo.cc">
 			<Option target="demo"/>
 		</Unit>
+		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/include/qconf.h">
+			<Option target="demo"/>
+		</Unit>
 		<Unit filename="/home/niuqiang/GetGit/QConf/driver/c++/src/driver_api.cc">
 			<Option target="qconf"/>
 			<Option target="qconf_static"/>

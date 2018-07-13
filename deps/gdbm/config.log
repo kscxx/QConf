@@ -367,11 +367,11 @@ configure:12233: checking lex output file root
 configure:12247: result: lex.yy
 configure:12252: checking lex library
 configure:12266: gcc -o conftest -g -O2   conftest.c   >&5
-/tmp/ccfs4W9Y.o: In function `input':
+/tmp/ccJO2yUI.o: In function `input':
 /home/niuqiang/GetGit/QConf/deps/gdbm/lex.yy.c:1170: undefined reference to `yywrap'
-/tmp/ccfs4W9Y.o: In function `yylex':
+/tmp/ccJO2yUI.o: In function `yylex':
 /home/niuqiang/GetGit/QConf/deps/gdbm/lex.yy.c:869: undefined reference to `yywrap'
-/tmp/ccfs4W9Y.o: In function `main':
+/tmp/ccJO2yUI.o: In function `main':
 /home/niuqiang/GetGit/QConf/deps/gdbm/conftest.l:18: undefined reference to `yywrap'
 collect2: error: ld returned 1 exit status
 configure:12266: $? = 1
@@ -5762,11 +5762,11 @@ configure: failed program was:
 configure:12276: result: none needed
 configure:12282: checking whether yytext is a pointer
 configure:12299: gcc -o conftest -g -O2   conftest.c   >&5
-/tmp/cclxbVXC.o: In function `input':
+/tmp/ccU8jILn.o: In function `input':
 /home/niuqiang/GetGit/QConf/deps/gdbm/lex.yy.c:1170: undefined reference to `yywrap'
-/tmp/cclxbVXC.o: In function `yylex':
+/tmp/ccU8jILn.o: In function `yylex':
 /home/niuqiang/GetGit/QConf/deps/gdbm/lex.yy.c:869: undefined reference to `yywrap'
-/tmp/cclxbVXC.o: In function `main':
+/tmp/ccU8jILn.o: In function `main':
 /home/niuqiang/GetGit/QConf/deps/gdbm/conftest.l:18: undefined reference to `yywrap'
 collect2: error: ld returned 1 exit status
 configure:12299: $? = 1

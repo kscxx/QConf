@@ -9,3 +9,6 @@ agent/CMakeFiles/
 .idea/
 *.o
 *.lo
+*.a
+*.so
+

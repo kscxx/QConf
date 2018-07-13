@@ -27,7 +27,7 @@ static int qconf_get_host_(const char *path, char *buf, size_t buf_len, const ch
 
 int qconf_init()
 {
-    srand(time(NULL));
+    srand(time(NULL));  // 以系统时间设置随机数种子，使每次编译后获得的随机数序列都不同
     return init_qconf_env();
 }
 
@@ -305,7 +305,7 @@ static int get_node_path(const string &path, string &real_path)
     const char *end_pos = NULL;
     const char *start_pos = NULL;
 
-    start_pos = path.data();
+    start_pos = path.data();  // data():与c_str()类似，但是返回的数组不以空字符终止
     end_pos = path.data() + path.size() - 1;
 
     while (*start_pos == delim && start_pos <= end_pos)
