@@ -41,7 +41,7 @@ int qconf_get_localidc(qhasharr_t *tbl, string &local_idc)
 {
     if (NULL == tbl) return QCONF_ERR_PARAM;
     string idc, path, tblkey, tblval;
-    serialize_to_tblkey(QCONF_DATA_TYPE_LOCAL_IDC, idc, path, tblkey);
+    serialize_to_tblkey(QCONF_DATA_TYPE_LOCAL_IDC, idc, path, tblkey);  // 第一个参数指示这个步骤啥也没干
 
     int ret = hash_tbl_get(tbl, tblkey, tblval);
     if (QCONF_OK == ret) ret = tblval_to_localidc(tblval, local_idc);

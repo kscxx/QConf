@@ -18,7 +18,7 @@ using namespace std;
 static int qconf_get_batch_keys_native_(const char *path, string_vector_t *nodes, const char *idc, int flags);
 #endif
 
-static int get_node_path(const string &path, string &real_path);
+static int get_node_path(const string &path, string &real_path);  // 推测是为了过滤path不合理的极端情况
 static int qconf_get_conf_(const char *path, char *buf, size_t buf_len, const char *idc, int flags);
 static int qconf_get_batch_conf_(const char *path, qconf_batch_nodes *bnodes, const char *idc, int flags);
 static int qconf_get_batch_keys_(const char *path, string_vector_t *nodes, const char *idc, int flags);
